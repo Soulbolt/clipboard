@@ -564,24 +564,6 @@ h2 {
   --tw-contain-style:  ;
 }
 
-.btn-blue {
-  border-radius: 0.75rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-weight: 700;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.btn-blue:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -594,6 +576,10 @@ h2 {
 
 .mb-40 {
   margin-bottom: 10rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .max-w-6xl {
@@ -613,6 +599,20 @@ h2 {
   text-align: center;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-darkGrayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(210 10% 33% / var(--tw-text-opacity));
+}
+
 .content-area {
   --tw-bg-opacity: 1;
   background-color: rgb(187 247 208 / var(--tw-bg-opacity));
@@ -625,5 +625,12 @@ h2 {
     background-color: rgb(0 0 0 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
