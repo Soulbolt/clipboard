@@ -18,9 +18,6 @@ module.exports = {
       fontFamily: {
         sans: ["Bai Jamjuree", "sans-serif"],
       },
-      spacing: {
-        128: "32rem",
-      },
     },
   },
   plugins: [],
