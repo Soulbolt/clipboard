@@ -792,7 +792,6 @@ h5 {
   margin-right: auto;
   max-width: 48rem;
   text-align: center;
-  font-size: 1.25rem;
   line-height: 2.25rem;
   --tw-text-opacity: 1;
   color: hsl(201 11% 66% / var(--tw-text-opacity));
@@ -846,7 +845,7 @@ body {
 }
 
 .ficon:hover {
-  filter: invetert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
     brightness(101%) contrast(94%);
 }
 
